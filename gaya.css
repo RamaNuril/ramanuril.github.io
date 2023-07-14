@@ -1,65 +1,153 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style:disc;
+
+ol,
+ul {
+    list-style: disc;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*my style */
 
-body    {
+body {
     width: auto;
     height: auto;
     font-family: monospace;
-    background-color:#479395;
+    background-color: #479395;
 }
 
 
-body a:link, body a:visited {
+body a:link,
+body a:visited {
     color: black;
     text-decoration: none;
 }
 
-.container  {
+.container {
     width: 960px;
-    height: 1000px;
+    height: 1100px;
     margin: 80px auto;
     border: 1px solid white;
     background-color: #C0C0C0;
@@ -67,11 +155,11 @@ body a:link, body a:visited {
     border-radius: 10px;
 }
 
-.cv         {
+.cv {
     width: auto;
     height: 40px;
     background-color: salmon;
-    padding: 5px;    
+    padding: 5px;
     padding-left: 10px;
     box-sizing: border-box;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -80,7 +168,7 @@ body a:link, body a:visited {
     border-top-right-radius: 10px;
 }
 
-.cv .mycv   {
+.cv .mycv {
     width: 200px;
     height: 25px;
     font-size: 20px;
@@ -91,21 +179,22 @@ body a:link, body a:visited {
     padding-top: 5px;
 }
 
-.cv .bgcv   {
+.cv .bgcv {
     background-image: url(img/directory_open_file_mydocs_2k-4.png);
     background-repeat: no-repeat;
-    background-size: 25px;    
+    background-size: 25px;
     display: inline-block;
 }
 
-.control-box    {
+.control-box {
     width: 90px;
     height: 25px;
     float: right;
     margin: 3px;
 }
 
-.minimize-cv:link,   .minimize-cv:visited  {
+.minimize-cv:link,
+.minimize-cv:visited {
     position: relative;
     bottom: 3px;
     text-align: center;
@@ -121,7 +210,8 @@ body a:link, body a:visited {
     box-sizing: border-box;
 }
 
-.maximize-cv:link, .maximize-cv:visited    {
+.maximize-cv:link,
+.maximize-cv:visited {
     position: relative;
     text-align: center;
     line-height: 25px;
@@ -129,13 +219,14 @@ body a:link, body a:visited {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-color: #C0C0C0;    
+    background-color: #C0C0C0;
     border: 1px solid black;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
 }
 
-.close-cv:link, .close-cv:visited   {
+.close-cv:link,
+.close-cv:visited {
     position: relative;
     text-align: center;
     line-height: 25px;
@@ -143,21 +234,22 @@ body a:link, body a:visited {
     display: inline-block;
     width: 24px;
     height: 24px;
-    text-decoration: none;   
-    background-color: #C0C0C0; 
+    text-decoration: none;
+    background-color: #C0C0C0;
     border: 1px solid black;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
 }
 
-.folder     {
+.folder {
     width: 100%;
-    height: 100px;;
+    height: 100px;
+    ;
     display: inline-block;
     margin: 5px;
 }
 
-.folder h3  {
+.folder h3 {
     font-size: 10px;
     white-space: nowrap;
     overflow: hidden;
@@ -165,7 +257,7 @@ body a:link, body a:visited {
     text-align: center;
 }
 
-.profile    {
+.profile {
     width: 50px;
     height: 50px;
     padding: 2px;
@@ -188,10 +280,10 @@ body a:link, body a:visited {
 
 .experiences-folder {
     display: block;
-    margin: 5px auto;    
+    margin: 5px auto;
 }
 
-.skill  {
+.skill {
     width: 50px;
     height: 50px;
     padding: 2px;
@@ -199,9 +291,9 @@ body a:link, body a:visited {
     box-sizing: border-box;
 }
 
-.skill-folder   {
+.skill-folder {
     display: block;
-    margin: 5px auto;        
+    margin: 5px auto;
 }
 
 .educations {
@@ -212,12 +304,14 @@ body a:link, body a:visited {
     box-sizing: border-box;
 }
 
-.educations-folder  {
+.educations-folder {
     display: block;
-    margin: 5px auto;            
+    margin: 5px auto;
 }
 
-.facebook, .ig, .wa  {
+.facebook,
+.ig,
+.wa {
     width: 50px;
     height: 50px;
     padding: 2px;
@@ -225,12 +319,14 @@ body a:link, body a:visited {
     box-sizing: border-box;
 }
 
-.facebook-folder, .ig-folder, .wa-folder   {
+.facebook-folder,
+.ig-folder,
+.wa-folder {
     display: block;
-    margin: 5px auto;    
+    margin: 5px auto;
 }
 
-.profile-file   {
+.profile-file {
     width: 500px;
     height: 450px;
     background-color: #C0C0C0;
@@ -240,20 +336,25 @@ body a:link, body a:visited {
     margin-right: 30px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     position: relative;
+    right: -100px;
+    top: -70px;
 }
 
-.file-header    {
+.file-header {
     width: auto;
     height: 40px;
     background-color: salmon;
-    padding: 5px;    
+    padding: 5px;
     padding-left: 10px;
     box-sizing: border-box;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     display: block;
 }
 
-.mypf, .myexp, .mysk, .myed   {
+.mypf,
+.myexp,
+.mysk,
+.myed {
     width: 120px;
     height: 25px;
     font-size: 20px;
@@ -265,36 +366,36 @@ body a:link, body a:visited {
     line-height: 15px;
 }
 
-.bgpf  {
+.bgpf {
     background-image: url(img/profile_folder.png);
     background-repeat: no-repeat;
-    background-size: 25px;    
+    background-size: 25px;
     display: inline-block;
     margin-top: 3px;
 }
 
-.bgexp  {
+.bgexp {
     background-image: url(img/experience_folder.png);
     background-repeat: no-repeat;
-    background-size: 25px;    
+    background-size: 25px;
     display: inline-block;
     margin-top: 3px;
 }
 
-.bgsk   {
+.bgsk {
     background-image: url(img/Skillscoding_folder.png);
     background-repeat: no-repeat;
-    background-size: 25px;    
+    background-size: 25px;
     display: inline-block;
     margin-top: 3px;
 }
 
-.bged   {
+.bged {
     background-image: url(img/Education_folder.png);
     background-repeat: no-repeat;
-    background-size: 25px;    
+    background-size: 25px;
     display: inline-block;
-    margin-top: 3px;        
+    margin-top: 3px;
 }
 
 .bdr-pffile {
@@ -304,13 +405,13 @@ body a:link, body a:visited {
     margin-top: 10px;
 }
 
-.pas-foto   {
+.pas-foto {
     border: 5px solid white;
     border-radius: 50%;
     float: right;
 }
 
-.name   {
+.name {
     width: 300px;
     height: 170px;
     font-size: 50px;
@@ -326,7 +427,7 @@ body a:link, body a:visited {
     height: 45px;
 }
 
-.alamat p   {
+.alamat p {
     font-size: 20px;
     padding-left: 30px;
 }
@@ -341,20 +442,23 @@ body a:link, body a:visited {
     padding-top: 2px;
 }
 
-.email, .phone  {
+.email,
+.phone {
     margin-top: 15px;
     width: 100%;
     height: 30px;
     box-sizing: border-box;
 }
 
-.email p, .phone p  {
+.email p,
+.phone p {
     padding-top: 2px;
     font-size: 20px;
     padding-left: 30px;
 }
 
-.email-icon, .phone-icon{
+.email-icon,
+.phone-icon {
     width: 25px;
     height: 100%;
     box-sizing: border-box;
@@ -364,21 +468,24 @@ body a:link, body a:visited {
     padding-top: 2px;
 }
 
-.experiences-file   {
-    width: 500px;
-    height: 380px;
+.experiences-file {
+    width: 650px;
+    height: 700px;
     background-color: #C0C0C0;
     border: 2px solid white;
     box-sizing: border-box;
     float: left;
     margin-right: 30px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);   
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     position: relative;
-    bottom: 50px;
-    left: 50px;
+    bottom: 85px;
+    left: -85px;
 }
 
-.ceres, .agp {
+.ceres,
+.agp,
+.cf,
+.ck {
     margin-top: 20px;
     margin-left: 10px;
     width: 100%;
@@ -386,7 +493,20 @@ body a:link, body a:visited {
     float: left;
 }
 
-.nomer-ceres, .nomer-agp {
+.ck {
+    position: relative;
+    top: -60px;
+}
+
+.ceres {
+    position: relative;
+    top: -30px;
+}
+
+.nomer-ceres,
+.nomer-agp,
+.nomer-cf,
+.nomer-ck {
     width: 30px;
     height: 100%;
     font-size: 20px;
@@ -395,7 +515,10 @@ body a:link, body a:visited {
     float: left;
 }
 
-.ceres-header, .agp-header   {
+.ceres-header,
+.agp-header,
+.cf-header,
+.ck-header {
     width: 100%;
     height: 25px;
     font-size: 20px;
@@ -403,23 +526,29 @@ body a:link, body a:visited {
     font-weight: bold;
 }
 
-.tgl-ceres, .tgl-agp    {
+.tgl-ceres,
+.tgl-agp,
+.tgl-cf,
+.tgl-ck {
     width: 100%;
     height: 30px;
     font-size: 15px;
     font-weight: 600;
 }
 
-.tgl i  {
+.tgl i {
     font-style: italic;
 }
 
-.jobdesk-ceres, .jobdesk-agp    {
+.jobdesk-ceres,
+.jobdesk-agp,
+.jobdesk-cf,
+.jobdesk-ck {
     padding-left: 50px;
     font-size: 15px;
 }
-    
-.img-ceres  {
+
+.img-ceres {
     width: 130px;
     height: 120px;
     margin-right: 20px;
@@ -430,7 +559,7 @@ body a:link, body a:visited {
     background-size: cover;
 }
 
-.img-agp    {
+.img-agp {
     width: 130px;
     height: 120px;
     margin-right: 20px;
@@ -439,6 +568,29 @@ body a:link, body a:visited {
     border-radius: 50%;
     background-image: url(img/agp.jpg);
     background-size: cover;
+}
+
+.img-carefast {
+    width: 130px;
+    height: 120px;
+    margin-right: 20px;
+    float: right;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-image: url(img/carefast.jpg);
+    background-size: cover;
+}
+
+.img-ck {
+    width: 130px;
+    height: 120px;
+    margin-right: 20px;
+    float: right;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-image: url(img/chikuro.jpg);
+    background-size: cover;
+    background-position: 0 -10px;
 }
 
 .skill-file {
@@ -450,19 +602,28 @@ body a:link, body a:visited {
     border: 2px solid white;
     box-sizing: border-box;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    top: 200px;
 }
 
-.sk-html, .sk-css, .sk-cplus, .sk-csharp, .sk-unity    {
+.sk-html,
+.sk-css,
+.sk-cplus,
+.sk-csharp,
+.sk-unity {
     width: 90%;
     height: 50px;
     margin: 10px;
 }
 
-.sk-html    {
+.sk-html {
     margin-top: 25px;
 }
 
-.img-html, .img-css, .img-cplus, .img-csharp, .img-unity   {
+.img-html,
+.img-css,
+.img-cplus,
+.img-csharp,
+.img-unity {
     width: 50px;
     height: 100%;
     text-align: center;
@@ -471,17 +632,17 @@ body a:link, body a:visited {
     float: left;
 }
 
-.name-html  {
+.name-html {
     width: 40px;
     height: 100%;
     float: left;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    line-height: 50px; 
+    line-height: 50px;
 }
 
-.level-bar  {
+.level-bar {
     background-color: #ddd;
     height: 20px;
     border-radius: 40px;
@@ -503,10 +664,13 @@ body a:link, body a:visited {
     float: right;
     margin-top: 20px;
     margin-right: 30px;
+    position: relative;
     background-color: #C0C0C0;
     border: 2px solid white;
     box-sizing: border-box;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    top: -700px;
+    right: -20px;
 }
 
 .school {
@@ -523,7 +687,7 @@ body a:link, body a:visited {
     padding-left: 10px;
 }
 
-.jurusan    {
+.jurusan {
     width: 100%;
     height: 40px;
     font-size: 20px;
@@ -531,7 +695,7 @@ body a:link, body a:visited {
     padding-top: 10px;
 }
 
-.img-smk6   {
+.img-smk6 {
     width: 45%;
     height: 45%;
     background-image: url(img/smkn6bdg.jpg);
@@ -543,7 +707,7 @@ body a:link, body a:visited {
     float: left;
 }
 
-.img-tpm    {
+.img-tpm {
     width: 45%;
     height: 45%;
     background-image: url(img/tmp_smk6bdg.png);
